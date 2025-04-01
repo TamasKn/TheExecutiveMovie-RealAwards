@@ -28,6 +28,8 @@ Existing Awards are converted to the Academy Awards and Golden Globe. Added the 
 
 Unzip the package and just copy the `RealAwards-1.0` folder to your `...\SteamLibrary\steamapps\common\The Executive\Mods` folder.
 
+English localization only.
+
 ### Custom balance
 
 If you prefer to further customize or balance the current features, just modify the `RealAwards-1.0/Industry/Awards.json` file. Adding a new Award is also straightforward by following the pattern in the `.json` file, images are in the `Ui` folder and make sure the `Localization.csv` is updated as well.
