@@ -1,5 +1,14 @@
 # Real Awards for The Executive: Movie Industry Tycoon game
 
+![Berlinale nominations](./_promo/mod_2.JPG)
+
+![Berlinale nominations](./_promo/mod_4.JPG)
+
+![Berlinale nominations](./_promo/mod_5.JPG)
+
+![Berlinale nominations](./_promo/mod_12.JPG)
+
+
 ### Description
 
 Existing Awards are converted to the Academy Awards and Golden Globe. Added the Independent Spirit Awards, Cannes, Berlinale and Venice Film Festival. Dates of nominations/selections and ceremonies are adjusted to the real life events. It gives the players a more realistic and eventful expereience throughout the year. See more details about each Award below:
