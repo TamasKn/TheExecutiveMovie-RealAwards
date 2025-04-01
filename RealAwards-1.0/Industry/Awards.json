@@ -1,0 +1,358 @@
+{
+    "awards":
+    {
+        "loc-prefix": "Awards.",
+        "icon-prefix": "Awards.",
+        "records":
+        {
+            "oscars":
+            {
+                "start-date": "1971",
+                "card-back-image": "Nominee_Card_Back-Gaspars-220x280",
+                "small-icon-image": "Gaspar_Mini-70x70",
+                "statue-image": "Gaspar-362x730",
+                "statue-vfx-image": "Gaspar_VFX-362x730",
+                "eligible-sizes": [ "medium", "large" ],
+                "eligible-critics-score": 9.0,
+                "nomination-title-key": "Oscars.Nomination.Title",
+                "nomination-date": "0/0/1/4",
+                "nomination-period-years": 2,
+                "nomination-pool": 10,
+                "nomination-count": 4,
+                "nomination-notif-desc-key": "Oscars.Nomination.NotifDescKey",
+                "nomination-notif-icon-key": "Nomination.NotifIconKey",
+                "nomination-prestige-reward": 0.75,
+                "nomination-mods-rewards":
+                {
+                    "tag-chance-classic" : 0.5
+                },
+                "nomination-score":
+                {
+                    "pmo": { "p": 1, "m": 1, "o": 0 },
+                    "ruleset":
+                    [
+                        {
+                            "name": "nom-critics",
+                            "rule": "reference",
+                            "refs": [ "critics-score" ],
+                            "base": { "p": 1.0, "m": 0.75, "o": 0.0 }
+                        },
+                        {
+                            "name": "nom-audience",
+                            "rule": "reference",
+                            "refs": [ "audience-score" ],
+                            "base": { "p": 1.0, "m": 0.25, "o": 0.0 }
+                        }
+                    ]
+                },
+                "ceremony-delay": "0/1/3/1",
+                "ceremony-notif-desc-key": "Oscars.Ceremony.NotifDescKey",
+                "ceremony-notif-icon-key": "Ceremony.NotifIconKey",
+                "ceremony-prestige-reward": 2.0,
+                "ceremony-mods-rewards": { "tag-chance-classic" : 5 },
+                "ceremony-score":
+                {
+                    "pmo": { "p": 1, "m": 1, "o": 0 },
+                    "ruleset":
+                    [
+                        {
+                            "name": "win-random",
+                            "rule": "random-value",
+                            "base": { "p": 1.0, "m": 1.0, "o": 0.0 }
+                        }
+                    ]
+                }
+            },
+            "romys":
+            {
+                "start-date": "1972",
+                "card-back-image": "Nominee_Card_Back-Romys-220x280",
+                "small-icon-image": "Romy_Mini-70x70",
+                "statue-image": "Romy-362x730",
+                "statue-vfx-image": "Gaspar_VFX-362x730",
+                "eligible-sizes": [ "large", "blockbuster" ],
+                "eligible-critics-score": 8.0,
+                "nomination-title-key": "Romys.Nomination.Title",
+                "nomination-date": "0/0/0/1",
+                "nomination-period-years": 2,
+                "nomination-pool": 12,
+                "nomination-count": 4,
+                "nomination-notif-desc-key": "Romys.Nomination.NotifDescKey",
+                "nomination-notif-icon-key": "Nomination.NotifIconKey",
+                "nomination-prestige-reward": 0.3,
+                "nomination-mods-rewards":
+                {
+                    "tag-chance-classic" : 0.3
+                },
+                "nomination-score":
+                {
+                    "pmo": { "p": 1, "m": 1, "o": 0 },
+                    "ruleset":
+                    [
+                        {
+                            "name": "nom-critics",
+                            "rule": "reference",
+                            "refs": [ "critics-score" ],
+                            "base": { "p": 1.0, "m": 0.65, "o": 0.0 }
+                        },
+                        {
+                            "name": "nom-audience",
+                            "rule": "reference",
+                            "refs": [ "audience-score" ],
+                            "base": { "p": 1.0, "m": 0.35, "o": 0.0 }
+                        }
+                    ]
+                },
+                "ceremony-delay": "0/0/3/2",
+                "ceremony-notif-desc-key": "Romys.Ceremony.NotifDescKey",
+                "ceremony-notif-icon-key": "Ceremony.NotifIconKey",
+                "ceremony-prestige-reward": 1.0,
+                "ceremony-mods-rewards": { "tag-chance-classic" : 4 },
+                "ceremony-score":
+                {
+                    "pmo": { "p": 1, "m": 1, "o": 0 },
+                    "ruleset":
+                    [
+                        {
+                            "name": "win-random",
+                            "rule": "random-value",
+                            "base": { "p": 1.0, "m": 1.0, "o": 0.0 }
+                        }
+                    ]
+                }
+            },
+            "isa":
+            {
+                "start-date": "1984",
+                "card-back-image": "Nominee_Card_Back-ISA-220x280",
+                "small-icon-image": "ISA_Mini-70x70",
+                "statue-image": "ISA-362x730",
+                "statue-vfx-image": "Gaspar_VFX-362x730",
+                "eligible-sizes": [ "small" ],
+                "eligible-critics-score": 8.5,
+                "nomination-title-key": "ISA.Nomination.Title",
+                "nomination-date": "0/0/0/5",
+                "nomination-period-years": 2,
+                "nomination-pool": 10,
+                "nomination-count": 4,
+                "nomination-notif-desc-key": "ISA.Nomination.NotifDescKey",
+                "nomination-notif-icon-key": "Nomination.NotifIconKey",
+                "nomination-prestige-reward": 0.3,
+                "nomination-mods-rewards":
+                {
+                    "tag-chance-classic" : 0.3
+                },
+                "nomination-score":
+                {
+                    "pmo": { "p": 1, "m": 1, "o": 0 },
+                    "ruleset":
+                    [
+                        {
+                            "name": "nom-critics",
+                            "rule": "reference",
+                            "refs": [ "critics-score" ],
+                            "base": { "p": 1.0, "m": 0.90, "o": 0.0 }
+                        },
+                        {
+                            "name": "nom-audience",
+                            "rule": "reference",
+                            "refs": [ "audience-score" ],
+                            "base": { "p": 1.0, "m": 0.10, "o": 0.0 }
+                        }
+                    ]
+                },
+                "ceremony-delay": "0/2/0/1",
+                "ceremony-notif-desc-key": "ISA.Ceremony.NotifDescKey",
+                "ceremony-notif-icon-key": "Ceremony.NotifIconKey",
+                "ceremony-prestige-reward": 0.8,
+                "ceremony-mods-rewards": { "tag-chance-classic" : 4 },
+                "ceremony-score":
+                {
+                    "pmo": { "p": 1, "m": 1, "o": 0 },
+                    "ruleset":
+                    [
+                        {
+                            "name": "win-random",
+                            "rule": "random-value",
+                            "base": { "p": 1.0, "m": 1.0, "o": 0.0 }
+                        }
+                    ]
+                }
+            },
+            "cannes":
+            {
+                "start-date": "1973",
+                "card-back-image": "Nominee_Card_Back-Cannes-220x280",
+                "small-icon-image": "Cannes_Mini-70x70",
+                "statue-image": "Cannes-362x730",
+                "statue-vfx-image": "Romy_VFX-362x730",
+                "eligible-sizes": [ "medium" ],
+                "eligible-critics-score": 9.0,
+                "nomination-title-key": "Cannes.Nomination.Title",
+                "nomination-date": "0/3/0/3",
+                "nomination-period-years": 2,
+                "nomination-pool": 8,
+                "nomination-count": 4,
+                "nomination-notif-desc-key": "Cannes.Nomination.NotifDescKey",
+                "nomination-notif-icon-key": "Nomination.NotifIconKey",
+                "nomination-prestige-reward": 0.75,
+                "nomination-mods-rewards":
+                {
+                    "tag-chance-classic" : 0.5
+                },
+                "nomination-score":
+                {
+                    "pmo": { "p": 1, "m": 1, "o": 0 },
+                    "ruleset":
+                    [
+                        {
+                            "name": "nom-critics",
+                            "rule": "reference",
+                            "refs": [ "critics-score" ],
+                            "base": { "p": 1.0, "m": 0.85, "o": 0.0 }
+                        },
+                        {
+                            "name": "nom-audience",
+                            "rule": "reference",
+                            "refs": [ "audience-score" ],
+                            "base": { "p": 1.0, "m": 0.15, "o": 0.0 }
+                        }
+                    ]
+                },
+                "ceremony-delay": "0/1/0/6",
+                "ceremony-notif-desc-key": "Cannes.Ceremony.NotifDescKey",
+                "ceremony-notif-icon-key": "Ceremony.NotifIconKey",
+                "ceremony-prestige-reward": 1.5,
+                "ceremony-mods-rewards": { "tag-chance-classic" : 5 },
+                "ceremony-score":
+                {
+                    "pmo": { "p": 1, "m": 1, "o": 0 },
+                    "ruleset":
+                    [
+                        {
+                            "name": "win-random",
+                            "rule": "random-value",
+                            "base": { "p": 1.0, "m": 1.0, "o": 0.0 }
+                        }
+                    ]
+                }
+            },
+            "berlinale":
+            {
+                "start-date": "1978",
+                "card-back-image": "Nominee_Card_Back-Berlinale-220x280",
+                "small-icon-image": "Berlinale_Mini-70x70",
+                "statue-image": "Berlinale-362x730",
+                "statue-vfx-image": "Gaspar_VFX-362x730",
+                "eligible-sizes": [ "small" ],
+                "eligible-critics-score": 8.5,
+                "nomination-title-key": "Berlinale.Nomination.Title",
+                "nomination-date": "0/0/3/6",
+                "nomination-period-years": 2,
+                "nomination-pool": 10,
+                "nomination-count": 4,
+                "nomination-notif-desc-key": "Berlinale.Nomination.NotifDescKey",
+                "nomination-notif-icon-key": "Nomination.NotifIconKey",
+                "nomination-prestige-reward": 0.5,
+                "nomination-mods-rewards":
+                {
+                    "tag-chance-classic" : 0.3
+                },
+                "nomination-score":
+                {
+                    "pmo": { "p": 1, "m": 1, "o": 0 },
+                    "ruleset":
+                    [
+                        {
+                            "name": "nom-critics",
+                            "rule": "reference",
+                            "refs": [ "critics-score" ],
+                            "base": { "p": 1.0, "m": 0.80, "o": 0.0 }
+                        },
+                        {
+                            "name": "nom-audience",
+                            "rule": "reference",
+                            "refs": [ "audience-score" ],
+                            "base": { "p": 1.0, "m": 0.20, "o": 0.0 }
+                        }
+                    ]
+                },
+                "ceremony-delay": "0/0/1/2",
+                "ceremony-notif-desc-key": "Berlinale.Ceremony.NotifDescKey",
+                "ceremony-notif-icon-key": "Ceremony.NotifIconKey",
+                "ceremony-prestige-reward": 0.75,
+                "ceremony-mods-rewards": { "tag-chance-classic" : 4 },
+                "ceremony-score":
+                {
+                    "pmo": { "p": 1, "m": 1, "o": 0 },
+                    "ruleset":
+                    [
+                        {
+                            "name": "win-random",
+                            "rule": "random-value",
+                            "base": { "p": 1.0, "m": 1.0, "o": 0.0 }
+                        }
+                    ]
+                }
+            },
+            "venice":
+            {
+                "start-date": "1971",
+                "card-back-image": "Nominee_Card_Back-Venice-220x280",
+                "small-icon-image": "Venice_Mini-70x70",
+                "statue-image": "Venice-362x730",
+                "statue-vfx-image": "Romy_VFX-362x730",
+                "eligible-sizes": [ "small", "medium", "large" ],
+                "eligible-critics-score": 8.0,
+                "nomination-title-key": "Venice.Nomination.Title",
+                "nomination-date": "0/6/3/4",
+                "nomination-period-years": 2,
+                "nomination-pool": 12,
+                "nomination-count": 4,
+                "nomination-notif-desc-key": "Venice.Nomination.NotifDescKey",
+                "nomination-notif-icon-key": "Nomination.NotifIconKey",
+                "nomination-prestige-reward": 0.3,
+                "nomination-mods-rewards":
+                {
+                    "tag-chance-classic" : 0.3
+                },
+                "nomination-score":
+                {
+                    "pmo": { "p": 1, "m": 1, "o": 0 },
+                    "ruleset":
+                    [
+                        {
+                            "name": "nom-critics",
+                            "rule": "reference",
+                            "refs": [ "critics-score" ],
+                            "base": { "p": 1.0, "m": 0.70, "o": 0.0 }
+                        },
+                        {
+                            "name": "nom-audience",
+                            "rule": "reference",
+                            "refs": [ "audience-score" ],
+                            "base": { "p": 1.0, "m": 0.30, "o": 0.0 }
+                        }
+                    ]
+                },
+                "ceremony-delay": "0/1/0/6",
+                "ceremony-notif-desc-key": "Venice.Ceremony.NotifDescKey",
+                "ceremony-notif-icon-key": "Ceremony.NotifIconKey",
+                "ceremony-prestige-reward": 0.75,
+                "ceremony-mods-rewards": { "tag-chance-classic" : 4 },
+                "ceremony-score":
+                {
+                    "pmo": { "p": 1, "m": 1, "o": 0 },
+                    "ruleset":
+                    [
+                        {
+                            "name": "win-random",
+                            "rule": "random-value",
+                            "base": { "p": 1.0, "m": 1.0, "o": 0.0 }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
